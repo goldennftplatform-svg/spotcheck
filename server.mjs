@@ -17,7 +17,12 @@ const PORT = process.env.PORT || 4180;
 app.use(express.json({ limit: "1mb" }));
 
 app.get("/api/health", (_req, res) => {
-  res.json({ ok: true, service: "spotcheck", ...getStats() });
+  res.json({
+    ok: true,
+    service: "spotcheck",
+    brand: "GET TRENCHED: SPOT CHECK",
+    ...getStats(),
+  });
 });
 
 app.get("/api/receipts", (_req, res) => {
@@ -58,5 +63,5 @@ app.get("*", (_req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Spotcheck → http://localhost:${PORT}`);
+  console.log(`GET TRENCHED: SPOT CHECK → http://localhost:${PORT}`);
 });

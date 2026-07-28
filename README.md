@@ -1,22 +1,24 @@
-# SPOTCHECK
+# GET TRENCHED: SPOT CHECK
 
 ### Receipts. Rules. Cases.  
 **Automated proof for skill-based play — without trusting the client.**
 
 <p align="center">
-  <img src="https://img.shields.io/badge/stack-Node.js%20%2B%20Express-c8f560?style=for-the-badge&labelColor=0f1412" alt="stack" />
-  <img src="https://img.shields.io/badge/status-MVP-6db3ff?style=for-the-badge&labelColor=0f1412" alt="mvp" />
-  <img src="https://img.shields.io/badge/focus-fraud%20%2F%20disputes%20%2F%20payouts-ff6b5a?style=for-the-badge&labelColor=0f1412" alt="focus" />
+  <img src="https://img.shields.io/badge/GET%20TRENCHED-SPOT%20CHECK-c8f560?style=for-the-badge&labelColor=0f1412" alt="brand" />
+  <img src="https://img.shields.io/badge/stack-Node.js%20%2B%20Express-6db3ff?style=for-the-badge&labelColor=0f1412" alt="stack" />
+  <img src="https://img.shields.io/badge/status-MVP-ff6b5a?style=for-the-badge&labelColor=0f1412" alt="mvp" />
 </p>
+
+<p align="center"><strong>GET TRENCHED</strong> · <em>SPOT CHECK</em> — proof before payout.</p>
 
 ---
 
 ## The pitch
 
 In kill-stake / play-to-earn games, arguments start when money moves.  
-Spotcheck turns every meaningful act into a **hashed receipt**, runs **rules** over those receipts, and opens a **case queue** when something looks wrong.
+**GET TRENCHED: SPOT CHECK** turns every meaningful act into a **hashed receipt**, runs **rules** over those receipts, and opens a **case queue** when something looks wrong.
 
-| Without Spotcheck | With Spotcheck |
+| Without SPOT CHECK | With GET TRENCHED: SPOT CHECK |
 | --- | --- |
 | “Trust me, I got the kill” | Immutable event receipt + optional POV |
 | Manual Discord drama | Auto-opened cases with severity |
@@ -118,12 +120,20 @@ That file includes:
 
 ---
 
-## License / context
+## Brand & CTA
 
-Built as the ops layer for skill-based browser FPS payout integrity (PlayTrenches-class games).  
-Sibling project: hosting status meter lives elsewhere — Spotcheck owns **receipts & disputes**.
+| Layer | Copy |
+| --- | --- |
+| Parent brand | **GET TRENCHED** |
+| Product | **SPOT CHECK** |
+| Lockup | **GET TRENCHED: SPOT CHECK** |
+| CTA line | **GET TRENCHED → run SPOT CHECK** |
+| Tagline | Proof before payout. |
+
+Sibling project: hosting status meter lives elsewhere — **SPOT CHECK** owns receipts & disputes.
 
 ```text
-  S P O T C H E C K
+  GET TRENCHED
+  : SPOT CHECK
   proof before payout.
 ```

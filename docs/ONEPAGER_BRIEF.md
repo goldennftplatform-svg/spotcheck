@@ -1,4 +1,4 @@
-# Spotcheck — One-Pager Brief
+# GET TRENCHED: SPOT CHECK — One-Pager Brief
 
 > **For humans:** facts only.  
 > **For ChatGPT:** copy everything under **PROMPT TO PASTE** into a new chat, then ask it to generate the one-pager.
@@ -8,17 +8,24 @@
 ## PROMPT TO PASTE
 
 ```text
-You are a sharp product designer + copywriter. Create a single-page product one-pager for SPOTCHECK using ONLY the facts in the BRIEF below. Do not invent features, metrics, partners, or funding.
+You are a sharp product designer + copywriter. Create a single-page product one-pager for GET TRENCHED: SPOT CHECK using ONLY the facts in the BRIEF below. Do not invent features, metrics, partners, or funding.
+
+BRANDING (mandatory):
+- Parent brand: GET TRENCHED
+- Product line: SPOT CHECK
+- Full lockup everywhere primary: GET TRENCHED: SPOT CHECK
+- CTA direction: brand first, then product action — e.g. “GET TRENCHED → SPOT CHECK” / “Proof before payout.”
+- Do NOT title the page as only “Spotcheck” or “SPOTCHECK”
 
 OUTPUT FORMAT (one page):
-1) Hero: product name + 1-line positioning
+1) Hero: GET TRENCHED: SPOT CHECK + 1-line positioning
 2) Problem (3 bullets max)
 3) Solution (3 bullets max)
 4) How it works (4-step loop, short labels)
 5) What gets flagged (table or compact list of the 6 rules)
 6) Why not “just record the screen” (2–3 lines)
 7) Current status + next steps (MVP vs roadmap)
-8) Closing line / CTA
+8) Closing CTA using GET TRENCHED → SPOT CHECK
 
 CONSTRAINTS:
 - Max ~400 words
@@ -38,7 +45,9 @@ BRIEF START
 ## BRIEF (source of truth)
 
 ### Product
-- **Name:** Spotcheck  
+- **Parent brand:** GET TRENCHED  
+- **Product:** SPOT CHECK  
+- **Lockup:** GET TRENCHED: SPOT CHECK  
 - **One-liner:** Automated receipts and case reporting for skill-based games so payouts can be disputed with proof — not vibes.  
 - **Category:** Fraud / dispute / payout integrity tooling for play-to-earn & kill-stake games  
 - **Repo:** https://github.com/goldennftplatform-svg/spotcheck  
@@ -93,14 +102,15 @@ open · held · needs_pov · resolved · dismissed
 - Not a user-facing consumer marketing page  
 
 ### Brand cues
-- Name: **SPOTCHECK**  
-- Tagline options (pick one):  
-  - “Proof before payout.”  
-  - “Receipts. Rules. Cases.”  
-  - “Automated dispute ops for skill-based play.”  
+- Lockup: **GET TRENCHED: SPOT CHECK**  
+- CTA options (pick one):  
+  - “GET TRENCHED → SPOT CHECK”  
+  - “GET TRENCHED: proof before payout.”  
+  - “Receipts. Rules. Cases. — SPOT CHECK”  
 - Color hint: charcoal background, acid lime accent  
 
 ### CTA
+- Headline CTA: **GET TRENCHED: SPOT CHECK**  
 - Run locally: `npm install && npm run seed && npm start`  
 - Read schema: `docs/RECEIPTS.md`  
 - GitHub: https://github.com/goldennftplatform-svg/spotcheck  
@@ -120,6 +130,6 @@ After it generates the one-pager, you can say:
 - “Reformat as a Notion page.”  
 - “Make a single Figma-style layout description (sections + hierarchy only).”  
 - “Compress to 150 words for a Twitter/X thread opener.”  
-- “Turn into a one-slide pitch with speaker notes.”  
+- “Turn into a one-slide pitch with speaker notes — keep GET TRENCHED: SPOT CHECK as the title.”  
 
-Keep pointing it back to this brief if it starts adding fake metrics.
+Keep pointing it back to this brief if it starts adding fake metrics or dropping the GET TRENCHED lockup.

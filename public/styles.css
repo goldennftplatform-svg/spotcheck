@@ -36,15 +36,33 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
+.brand {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.45rem;
+}
+
 .mark {
   font-weight: 800;
   letter-spacing: 0.06em;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   color: var(--accent);
 }
 
+.mark.product {
+  color: var(--ink);
+}
+
+.mark-sep {
+  font-weight: 800;
+  font-size: 1.35rem;
+  color: var(--muted);
+}
+
 .sub {
-  margin-left: 0.75rem;
+  flex-basis: 100%;
+  margin-left: 0;
   font-family: var(--mono);
   font-size: 0.7rem;
   color: var(--muted);
