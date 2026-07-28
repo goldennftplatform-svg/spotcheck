@@ -1,0 +1,14 @@
+{
+  "name": "spotcheck",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "seed": "node scripts/seed.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
